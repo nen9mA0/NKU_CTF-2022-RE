@@ -1,0 +1,3 @@
+gcc -S antidisasm.c -o antidisasm.s -masm=intel
+python poly.py
+gcc antidisasm_change.s -o antidisasm.exe -masm=intel

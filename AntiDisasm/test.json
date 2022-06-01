@@ -1,0 +1,31 @@
+{
+    "type": "pattern",
+    "pattern":
+    [
+        {
+            "type": "hex",
+            "original": "EB FF C0 FF C8",
+            "changed": "90 90 90 90 90",
+            "enable": false
+        },
+        {
+            "type": "hex",
+            "original": "50 66 B8 EB 05 31 C0 74 FA E8 58",
+            "changed": "90 90 90 90 90 90 90 90 90 90 90",
+            "enable": false
+        },
+        {
+            "type": "ins",
+            "original": [
+
+            ],
+            "changed": [
+
+            ],
+            "enable": true
+        }
+    ],
+    "segments":[
+        ".text"
+    ]
+}
